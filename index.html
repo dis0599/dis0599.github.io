@@ -7,95 +7,106 @@
     <style>
         :root {
             --primary: #2563eb;
-            --dark: #1e293b;
+            --dark: #0f172a;
             --light: #f8fafc;
             --text: #334155;
+            --gray-bg: #f1f5f9;
         }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
         body {
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
             line-height: 1.6;
             color: var(--text);
-            background-color: var(--light);
-            margin: 0;
-            padding: 0;
+            background-color: #ffffff;
+            padding-bottom: 60px;
         }
-        .container {
-            max-width: 800px;
-            margin: 40px auto;
-            padding: 20px;
-            background: white;
-            border-radius: 8px;
-            box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);
+
+        /* Navigation Bar */
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 10%;
+            background: #ffffff;
+            border-bottom: 1px solid #e2e8f0;
         }
-        header {
-            text-align: center;
-            border-bottom: 2px solid #e2e8f0;
-            padding-bottom: 20px;
-            margin-bottom: 30px;
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-weight: 700;
+            font-size: 1.2rem;
+            color: var(--dark);
         }
-        h1 { color: var(--dark); margin-bottom: 5px; }
-        h2 { color: var(--primary); border-bottom: 1px solid #e2e8f0; padding-bottom: 5px; }
-        .subtitle { font-style: italic; color: #64748b; font-size: 1.1rem; }
-        .workflow {
-            background: #eff6ff;
-            padding: 15px;
-            border-left: 4px solid var(--primary);
+
+        .logo-box {
+            background: var(--dark);
+            color: #ffffff;
+            padding: 5px 10px;
             border-radius: 4px;
-            font-weight: 500;
-            text-align: center;
+            font-size: 1.1rem;
         }
-        ul { padding-left: 20px; }
-        li { margin-bottom: 10px; }
-    </style>
-</head>
-<body>
 
-<div class="container">
-    <header>
-        <h1>Divina Santos</h1>
-        <p class="subtitle">Logistics VA Portfolio</p>
-        <p><strong>Online Seller • Customer Support • Operations Coordinator</strong><br>Helping businesses streamline customer communication and delivery operations.</p>
-    </header>
+        nav ul {
+            display: flex;
+            list-style: none;
+            gap: 30px;
+        }
 
-    <section>
-        <h2>📋 About Me</h2>
-        <p>I am a detail-oriented professional with nearly 4 years of Software QA experience and practical logistics coordination experience from running an online business on Facebook Marketplace.</p>
-        <p>My QA background strengthened my documentation, process management, problem-solving, and communication skills. I am now focused on a Logistics VA path where I can help businesses manage customer support, order flow, shipping updates, and daily operations efficiently.</p>
-    </section>
+        nav ul li a {
+            text-decoration: none;
+            color: var(--text);
+            font-weight: 500;
+            transition: color 0.2s;
+        }
 
-    <section>
-        <h2>🛠️ Services</h2>
-        <ul>
-            <li><strong>Customer Support:</strong> Email and chat support, inquiries, order updates, and complaint resolution.</li>
-            <li><strong>Logistics Coordination:</strong> Shipment tracking, delivery scheduling, rider communication, and ETA follow-ups.</li>
-            <li><strong>Operations Support:</strong> Data entry, reporting, documentation, spreadsheets, and order management.</li>
-        </ul>
-    </section>
+        nav ul li a:hover {
+            color: var(--primary);
+        }
 
-    <section>
-        <h2>📈 Experience & Professional Story</h2>
-        <ul>
-            <li><strong>2022–Present:</strong> Software QA Engineer (Strong attention to detail, test execution, reporting)</li>
-            <li><strong>Online Business:</strong> Online Seller & Logistics Coordinator (Managed FB Marketplace inquiries, scheduled deliveries, tracked shipments)</li>
-            <li><strong>2018–2022:</strong> BS in Information Technology (Foundation in technical work and structured workflows)</li>
-        </ul>
-    </section>
+        /* Hero Banner Section */
+        .hero {
+            text-align: center;
+            padding: 40px 20px 20px 20px;
+        }
 
-    <section>
-        <h2>🚀 Workflow</h2>
-        <div class="workflow">
-            Inquiry ➔ Order Confirmation ➔ Delivery Scheduling ➔ Rider Coordination ➔ Shipment Tracking ➔ Customer Update ➔ Successful Delivery
-        </div>
-    </section>
+        .hero h1 {
+            font-size: 2.2rem;
+            font-weight: 800;
+            letter-spacing: -0.5px;
+            color: var(--dark);
+            margin-bottom: 25px;
+            text-transform: uppercase;
+        }
 
-    <section>
-        <h2>🤝 Contact</h2>
-        <ul>
-            <li><strong>Email:</strong> <a href="mailto:divinainfantesantos24@gmail.com">divinainfantesantos24@gmail.com</a></li>
-            <li><strong>Location:</strong> Bulacan, Philippines</li>
-        </ul>
-    </section>
-</div>
+        /* Mockup Graphic Banner */
+        .banner-container {
+            max-width: 1100px;
+            margin: 0 auto;
+            position: relative;
+            background: linear-gradient(135deg, #cbd5e1 0%, #94a3b8 100%);
+            height: 250px;
+            border-radius: 16px;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: inset 0 0 100px rgba(0,0,0,0.1);
+        }
 
-</body>
-</html>
+        /* Clean CSS illustrations representing the mockup image elements */
+        .banner-bg-elements {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+        }
