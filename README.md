@@ -1,2 +1,277 @@
 # Portfolio.github.io>> README.md
-git push -u origin main[index.html](https://github.com/user-attachments/files/29058801/index.html)
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Divina Santos | Logistics VA Portfolio</title>
+  <meta name="description" content="Portfolio of Divina Santos, Logistics Virtual Assistant, Online Seller, Customer Support & Operations Coordinator." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <div class="brand-mark">DS</div>
+      <div>
+        <strong>Divina Santos</strong>
+        <span>Logistics VA Portfolio</span>
+      </div>
+    </div>
+    <nav class="nav">
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#experience">Experience</a>
+      <a href="#contact" class="btn btn-small">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">Online Seller • Customer Support • Operations Coordinator</p>
+        <h1>Helping businesses streamline customer communication and delivery operations.</h1>
+        <p class="lead">
+          Detail-oriented professional with nearly 4 years of Software QA experience and hands-on
+          online selling and logistics coordination experience through Facebook Marketplace.
+        </p>
+        <div class="hero-actions">
+          <a class="btn" href="#contact">Hire Me</a>
+          <a class="btn btn-outline" href="Divina_Santos_CV.pdf" target="_blank" rel="noopener">Download CV</a>
+        </div>
+        <div class="metrics" aria-label="Highlights">
+          <div class="metric">
+            <strong>4 yrs</strong>
+            <span>QA background</span>
+          </div>
+          <div class="metric">
+            <strong>FB Marketplace</strong>
+            <span>Seller experience</span>
+          </div>
+          <div class="metric">
+            <strong>5-star</strong>
+            <span>customer feedback</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-card">
+        <div class="profile-card">
+          <div class="avatar">DS</div>
+          <h2>Logistics Virtual Assistant</h2>
+          <p>Online Seller | Customer Support & Operations Coordinator</p>
+          <ul class="quick-facts">
+            <li>Customer inquiry handling</li>
+            <li>Shipment tracking & ETA updates</li>
+            <li>Delivery rider coordination</li>
+            <li>Order management & reporting</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="section-heading">
+        <p>About Me</p>
+        <h2>Built on process, communication, and customer care.</h2>
+      </div>
+      <div class="card two-col">
+        <div>
+          <p>
+            I am a detail-oriented professional with nearly four years of Software QA experience
+            and practical logistics coordination experience from running an online business on Facebook Marketplace.
+            I handled buyer inquiries, confirmed orders, coordinated deliveries, communicated with riders,
+            tracked shipments, and kept customers updated until their orders were delivered successfully.
+          </p>
+        </div>
+        <div>
+          <p>
+            My QA background strengthened my documentation, process management, problem-solving, and
+            communication skills. I am now focused on a Logistics VA path where I can help businesses
+            manage customer support, order flow, shipping updates, and daily operations efficiently.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="section">
+      <div class="section-heading">
+        <p>Professional Story</p>
+        <h2>A transition from QA to logistics coordination.</h2>
+      </div>
+
+      <div class="timeline">
+        <article class="card timeline-item">
+          <span class="timeline-label">2018–2022</span>
+          <h3>BS in Information Technology</h3>
+          <p>Built a foundation in technical work, problem-solving, and structured workflows.</p>
+        </article>
+
+        <article class="card timeline-item">
+          <span class="timeline-label">2022–Present</span>
+          <h3>Software QA Engineer</h3>
+          <p>Developed strong attention to detail, documentation, reporting, test execution, and collaboration across teams.</p>
+        </article>
+
+        <article class="card timeline-item">
+          <span class="timeline-label">Online Business</span>
+          <h3>Online Seller & Logistics Coordinator</h3>
+          <p>Managed customer inquiries, scheduled deliveries, tracked shipments, and communicated with delivery riders until successful completion.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="services" class="section">
+      <div class="section-heading">
+        <p>Services</p>
+        <h2>Support areas I can help with.</h2>
+      </div>
+
+      <div class="grid cards-3">
+        <article class="card service-card">
+          <div class="icon">✉</div>
+          <h3>Customer Support</h3>
+          <p>Email and chat support, inquiries, order updates, and complaint resolution.</p>
+        </article>
+        <article class="card service-card">
+          <div class="icon">🚚</div>
+          <h3>Logistics Coordination</h3>
+          <p>Shipment tracking, delivery scheduling, rider communication, and ETA follow-ups.</p>
+        </article>
+        <article class="card service-card">
+          <div class="icon">🗂</div>
+          <h3>Operations Support</h3>
+          <p>Data entry, reporting, documentation, spreadsheets, and order management.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-heading">
+        <p>Workflow</p>
+        <h2>How I manage an order from inquiry to delivery.</h2>
+      </div>
+
+      <div class="workflow card">
+        <div>Inquiry</div><span>→</span>
+        <div>Order Confirmation</div><span>→</span>
+        <div>Delivery Scheduling</div><span>→</span>
+        <div>Rider Coordination</div><span>→</span>
+        <div>Shipment Tracking</div><span>→</span>
+        <div>Customer Update</div><span>→</span>
+        <div>Successful Delivery</div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-heading">
+        <p>Case Study</p>
+        <h2>Facebook Marketplace selling experience.</h2>
+      </div>
+
+      <div class="card two-col">
+        <div>
+          <h3>Situation</h3>
+          <p>Selling handcrafted products through Facebook Marketplace while handling daily buyer inquiries and delivery coordination.</p>
+          <h3>Responsibilities</h3>
+          <ul class="checklist">
+            <li>Answered inquiries and provided product details</li>
+            <li>Confirmed orders and buyer requirements</li>
+            <li>Scheduled shipment and delivery</li>
+            <li>Tracked deliveries and communicated with riders</li>
+            <li>Updated customers until completion</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Results</h3>
+          <ul class="checklist">
+            <li>Maintained responsive and professional communication</li>
+            <li>Built trust through reliable follow-up</li>
+            <li>Earned positive customer feedback, including 5-star reviews</li>
+          </ul>
+          <p class="note">
+            This experience demonstrates real-world customer service, order handling, and logistics coordination.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-heading">
+        <p>Skills</p>
+        <h2>Core strengths I bring to a Logistics VA role.</h2>
+      </div>
+
+      <div class="skill-cloud card">
+        <span>Shipment Tracking</span>
+        <span>Customer Support</span>
+        <span>Delivery Coordination</span>
+        <span>Order Management</span>
+        <span>Documentation</span>
+        <span>Google Sheets</span>
+        <span>MS Excel</span>
+        <span>Problem Solving</span>
+        <span>Attention to Detail</span>
+        <span>Process Management</span>
+        <span>Fast Learner</span>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-heading">
+        <p>Customer Feedback</p>
+        <h2>Social proof that supports the portfolio.</h2>
+      </div>
+
+      <div class="grid cards-2">
+        <article class="card quote">
+          <p>“Responsive, organized, and easy to communicate with.”</p>
+          <span>— Customer feedback highlight</span>
+        </article>
+        <article class="card quote">
+          <p>“Reliable follow-up and smooth delivery coordination.”</p>
+          <span>— Customer feedback highlight</span>
+        </article>
+      </div>
+      <p class="footnote">Replace these with the exact wording from your real reviews when available.</p>
+    </section>
+
+    <section class="section">
+      <div class="section-heading">
+        <p>Why Hire Me</p>
+        <h2>A practical mix of accuracy, communication, and operations support.</h2>
+      </div>
+      <div class="card">
+        <p>
+          I combine the discipline of a QA professional with direct experience handling customer inquiries,
+          delivery scheduling, shipment tracking, and operational follow-through. I am organized, reliable,
+          and ready to support logistics teams with day-to-day coordination and customer communication.
+        </p>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="section-heading">
+        <p>Contact</p>
+        <h2>Let's work together.</h2>
+      </div>
+      <div class="card contact-card">
+        <div>
+          <h3>Divina Santos</h3>
+          <p>Logistics Virtual Assistant | Online Seller | Customer Support & Operations Coordinator</p>
+          <p>Email: divinainfantesantos24@gmail.com</p>
+          <p>Location: Bulacan, Philippines</p>
+        </div>
+        <div class="contact-actions">
+          <a class="btn" href="mailto:divinainfantesantos24@gmail.com">Email Me</a>
+          <a class="btn btn-outline" href="Divina_Santos_CV.pdf" target="_blank" rel="noopener">Open CV</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Divina Santos • Logistics VA Portfolio</p>
+  </footer>
+</body>
+</html>
